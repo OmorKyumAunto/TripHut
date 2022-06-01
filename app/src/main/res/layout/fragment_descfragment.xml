@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_marginBottom="50dp"
+    android:layout_height="match_parent"
+    tools:context=".descfragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical"
+>
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <Button
+                android:id="@+id/descbackbutton"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center"
+                android:background="@drawable/backbutton"
+                android:fontFamily="@font/roboto"
+                android:text="Back"
+                android:textColor="#FFF"
+                app:layout_constraintStart_toStartOf="@+id/relative"
+                app:layout_constraintTop_toTopOf="@+id/relative" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/relative"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                >
+
+
+                <com.smarteist.autoimageslider.SliderView
+                    android:id="@+id/imageslider"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    app:sliderAnimationDuration="600"
+                    app:sliderAutoCycleDirection="back_and_forth"
+                    app:sliderAutoCycleEnabled="true"
+                    app:sliderIndicatorAnimationDuration="600"
+                    app:sliderIndicatorGravity="center_horizontal|bottom"
+                    app:sliderIndicatorMargin="15dp"
+                    app:sliderIndicatorOrientation="horizontal"
+                    app:sliderIndicatorPadding="3dp"
+                    app:sliderIndicatorRadius="2dp"
+                    app:sliderIndicatorSelectedColor="#5A5A5A"
+                    app:sliderIndicatorUnselectedColor="#FFF"
+                    app:sliderScrollTimeInSec="2"
+                    app:sliderStartAutoCycle="true"
+
+                    >
+
+                </com.smarteist.autoimageslider.SliderView>
+
+            </RelativeLayout>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+        <TextView
+            android:id="@+id/placeholder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="Place Name"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp"
+            />
+
+
+
+
+        <TextView
+            android:id="@+id/hotelholder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="Available hotel :"
+            android:layout_marginStart="16dp"
+            android:textColor="#044363"
+            android:textSize="14sp"
+            />
+        <TextView
+            android:id="@+id/duraholder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="Duration :"
+            android:layout_marginStart="16dp"
+            android:textColor="#044363"
+            android:textSize="14sp"
+            />
+
+        <TextView
+            android:id="@+id/costholder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginStart="16dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="Cost : "
+            android:textColor="#044363"
+            />
+
+
+
+        <TextView
+            android:id="@+id/detailsholder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/roboto_bold"
+            android:text="Trip Details "
+            android:layout_marginHorizontal="10dp"
+            android:textColor="@android:color/background_dark"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:gravity="end"
+
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/btnCart"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginBottom="16dp"
+
+                app:srcCompat="@drawable/like" />
+
+            <Button
+                android:id="@+id/book"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/book_button_bg"
+                android:fontFamily="@font/rubik"
+                android:text="Start Booking Your Trip"
+                android:textColor="#FFFFFF" />
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

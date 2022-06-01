@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.AboutFragment"
+    android:id="@+id/aboutwrapper"
+    android:background="@color/login_bk_color"
+    android:orientation="vertical">
+<!--    <RelativeLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content">-->
+<!--        <LinearLayout-->
+<!--            android:background="@drawable/gradientbackground"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="320dp"-->
+<!--            android:orientation="vertical">-->
+<!--            <com.airbnb.lottie.LottieAnimationView-->
+
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="220dp"-->
+<!--                android:layout_gravity="center"-->
+<!--                app:lottie_rawRes="@raw/profileanimation"-->
+<!--                app:lottie_autoPlay="true"-->
+<!--                app:lottie_loop="true"/>-->
+<!--            <TextView-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:layout_gravity="center_horizontal"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:id="@+id/proname"-->
+<!--                android:fontFamily="@font/roboto_bold"-->
+<!--                android:textColor="#fff"-->
+<!--                android:textStyle="bold"-->
+<!--                android:textSize="21sp"/>-->
+<!--        </LinearLayout>-->
+
+<!--    </RelativeLayout>-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="360dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="vertical"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:layout_marginTop="45dp">-->
+<!--        <LinearLayout-->
+<!--            android:orientation="horizontal"-->
+<!--            android:paddingLeft="25dp"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content">-->
+<!--            <ImageView-->
+<!--                android:layout_width="36dp"-->
+<!--                android:layout_height="36dp"-->
+
+<!--                android:src="@drawable/emailicon"/>-->
+<!--            <TextView-->
+
+<!--                android:id="@+id/proemail"-->
+<!--                android:fontFamily="@font/roboto_medium"-->
+<!--                android:layout_gravity="center_vertical"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:paddingLeft="20dp"-->
+<!--                android:text="Email"/>-->
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_marginTop="25dp"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:paddingLeft="25dp"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content">-->
+<!--            <ImageView-->
+<!--                android:layout_width="36dp"-->
+<!--                android:layout_height="36dp"-->
+<!--                android:src="@drawable/idicon"/>-->
+<!--            <TextView-->
+<!--                android:fontFamily="@font/roboto_medium"-->
+
+<!--                android:id="@+id/pronid"-->
+<!--                android:layout_gravity="center_vertical"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:paddingLeft="20dp"-->
+<!--                android:text="NID No"/>-->
+<!--        </LinearLayout>-->
+<!--        <LinearLayout-->
+<!--            android:layout_marginTop="25dp"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:paddingLeft="25dp"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content">-->
+<!--            <ImageView-->
+<!--                android:layout_width="36dp"-->
+<!--                android:layout_height="36dp"-->
+<!--                android:src="@drawable/phoneicon"/>-->
+<!--            <TextView-->
+<!--                android:fontFamily="@font/roboto_medium"-->
+<!--                android:id="@+id/prophone"-->
+<!--                android:layout_gravity="center_vertical"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:paddingLeft="20dp"-->
+<!--                android:text="Phone"/>-->
+<!--        </LinearLayout>-->
+<!--    </LinearLayout>-->
+<!--    <Button-->
+<!--        android:textColor="#fff"-->
+<!--        android:background="@drawable/book_button_bg"-->
+<!--        android:layout_marginTop="40dp"-->
+<!--        android:id="@+id/contactus"-->
+<!--        android:layout_gravity="center_horizontal"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="40dp"-->
+<!--        android:text="About Us"/>-->
+
+<!--    <Button-->
+<!--        android:textColor="#fff"-->
+<!--        android:background="@drawable/book_button_bg"-->
+<!--        android:layout_marginTop="35dp"-->
+<!--        android:id="@+id/prologout"-->
+<!--        android:layout_gravity="center_horizontal"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Log Out"/>-->
+
+</FrameLayout>

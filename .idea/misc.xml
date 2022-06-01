@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/drawable-v24/buttonshape.xml" value="0.1185" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/drawable/backbutton.xml" value="0.1185" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/drawable/background_border.xml" value="0.13" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/drawable/background_intro.xml" value="0.1515" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/drawable/book_button_bg.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/drawable/btnpurple.xml" value="0.1405" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/drawable/btnroundgreen.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/drawable/button_background_blue.xml" value="0.139" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/drawable/buttonstyle.xml" value="0.1035" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/drawable/dash_button.xml" value="0.1495" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/drawable/entertainment_img_background.xml" value="0.118" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/drawable/gradientbackground.xml" value="0.1035" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/drawable/ic_add_img.xml" value="0.139" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/drawable/ic_arrow_back_black_24dp.xml" value="0.116" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/drawable/ic_back_img.xml" value="0.139" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/drawable/ic_facebook.xml" value="0.139" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/drawable/ic_google_plus.xml" value="0.116" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.116" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/drawable/ic_login_hero.xml" value="0.1745" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/drawable/ic_menu_camera.xml" value="0.1745" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.1745" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.139" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/drawable/ic_register_hero.xml" value="0.139" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/drawable/ic_search_black_24dp.xml" value="0.1075" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/drawable/ic_side_bg.xml" value="0.139" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/drawable/rndbtnred.xml" value="0.1485" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/drawable/rounded_toolbar.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/drawable/roundedcorner.xml" value="0.1485" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/drawable/roundimage.xml" value="0.118" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/drawable/search_bg.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/drawable/shopping_ing_background.xml" value="0.1495" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/drawable/side_nav_bar.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/drawable/transparent_toolbar.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/drawable/transport_ing_background.xml" value="0.1395" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/drawable/white_btn.xml" value="0.1515" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/font/montserrat_bold.xml" value="0.11770157553290084" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/font/roboto.xml" value="0.17560151962853524" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/font/roboto_bold.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/font/rubik.xml" value="0.1056533827618165" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/layout/about_fragment.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/layout/about_us_fragment.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/layout/activity_admin.xml" value="0.21" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/layout/activity_agent_login.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/layout/activity_car_data.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/layout/activity_city_information.xml" value="0.15305686190679776" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/layout/activity_descf_fragment.xml" value="0.15305686190679776" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/layout/activity_details.xml" value="0.2" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/layout/activity_drawer.xml" value="0.15305686190679776" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/layout/activity_events.xml" value="0.15305686190679776" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/layout/activity_forgot_password.xml" value="0.15305686190679776" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/layout/activity_login.xml" value="0.16" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/layout/activity_order_status.xml" value="0.15305686190679776" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/layout/activity_profile.xml" value="0.15305686190679776" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/layout/activity_profilene.xml" value="0.15305686190679776" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/layout/activity_splash_screen.xml" value="0.14" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/layout/activity_tour_data.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/layout/app_bar_drawer.xml" value="0.15305686190679776" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/layout/cardview.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/layout/category_row_items.xml" value="0.15305686190679776" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/layout/city_attractions_list_layout.xml" value="0.14920906370243694" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/layout/content_drawer.xml" value="0.15305686190679776" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/layout/drawer_menu.xml" value="0.18" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/layout/fragment_about_us.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/layout/fragment_book.xml" value="0.15305686190679776" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/layout/fragment_booking.xml" value="0.15305686190679776" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/layout/fragment_carbook.xml" value="0.22" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/layout/fragment_cardescfragment.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/layout/fragment_carrrecfrag.xml" value="0.22" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/layout/fragment_cart.xml" value="0.15305686190679776" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/layout/fragment_coxbazar.xml" value="0.22" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/layout/fragment_dashboard.xml" value="0.18" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/layout/fragment_descfragment.xml" value="0.2" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/layout/fragment_gallery.xml" value="0.14" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/layout/fragment_home.xml" value="0.14" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/layout/fragment_order_status.xml" value="0.15305686190679776" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/layout/fragment_profile_fragment.xml" value="0.2" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/layout/fragment_ratargul.xml" value="0.15305686190679776" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/layout/fragment_recfragment.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/layout/fragment_saint_martin.xml" value="0.14151346729371525" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/layout/fragment_sajek.xml" value="0.14151346729371525" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/layout/fragment_slideshow.xml" value="0.15305686190679776" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/layout/fragment_tripbook.xml" value="0.2" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/layout/home_fragment.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/layout/homeadapterflipper.xml" value="0.14920906370243694" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/layout/item.xml" value="0.14920906370243694" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/layout/item_option.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/layout/main_recycler_row_item.xml" value="0.15305686190679776" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/layout/my_profile_fragment.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/layout/nav_header_drawer.xml" value="0.22" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/layout/nearby_fragment.xml" value="0.15305686190679776" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/layout/nearbyarea_fragment.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/layout/order_layout.xml" value="0.22" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/layout/recents_row_item.xml" value="0.1346559729843816" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/layout/recyclercard.xml" value="0.5" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/layout/rounded_toolbar.xml" value="0.15305686190679776" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/layout/singlerowdesign.xml" value="0.33" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/layout/slider_item.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/layout/top_places_row_item.xml" value="0.15305686190679776" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/layout/upcomingtour_fragment.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/menu/activity_main_drawer.xml" value="0.33" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/menu/drawer.xml" value="0.15305686190679776" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/menu/menu.xml" value="0.15305686190679776" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Triphut2/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1275" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_marginBottom="50dp"
+    android:id="@+id/coxwrapper"
+    android:layout_height="match_parent"
+    tools:context=".Places.Coxbazar">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/placeback"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center"
+                android:background="@drawable/backbutton"
+                android:fontFamily="@font/roboto"
+                android:text="Back"
+                android:textColor="#FFF"
+                app:layout_constraintStart_toStartOf="@+id/relative"
+                app:layout_constraintTop_toTopOf="@+id/relative" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/relative"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                >
+                <com.smarteist.autoimageslider.SliderView
+                    android:id="@+id/imageslider"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    app:sliderAnimationDuration="600"
+                    app:sliderAutoCycleDirection="back_and_forth"
+                    app:sliderAutoCycleEnabled="true"
+                    app:sliderIndicatorAnimationDuration="600"
+                    app:sliderIndicatorGravity="center_horizontal|bottom"
+                    app:sliderIndicatorMargin="15dp"
+                    app:sliderIndicatorOrientation="horizontal"
+                    app:sliderIndicatorPadding="3dp"
+                    app:sliderIndicatorRadius="2dp"
+                    app:sliderIndicatorSelectedColor="#5A5A5A"
+                    app:sliderIndicatorUnselectedColor="#FFF"
+                    app:sliderScrollTimeInSec="2"
+                    app:sliderStartAutoCycle="true"
+
+                    >
+
+                </com.smarteist.autoimageslider.SliderView>
+
+            </RelativeLayout>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+        <TextView
+            android:id="@+id/placeholder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="Cox's Bazar"
+            android:layout_gravity="center"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:id="@+id/detailsholder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="পৃথিবীর তৃতীয় দীর্ঘতম (১২০ কিলোমিটার দীর্ঘ) কক্সবাজার সমুদ্র সৈকত। এটি বাংলাদেশের একটি বৃহৎ পর্যটন কেন্দ্র। এখানে ২ শতাধিক বড় হোটেল, ৫ শতাধিক অন্যান্য হোটেল রয়েছে। এখানে একটি ঝিনুক মার্কেট ও একটি বার্মিজ মার্কেট রয়েছে, যেখানে মায়ানমার, থাইল্যান্ড ও চীনের বিভিন্ন সামগ্রী পাওয়া যায়।"
+            android:layout_marginHorizontal="10dp"
+            android:textColor="@android:color/background_dark"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/placeholder" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="দর্শনীয় স্থান:\n\nঅগ্গমেধা বৌদ্ধ বিহার\n
+আদিনাথ মন্দির\n
+ইনানী সমুদ্র সৈকত\n
+পাটুয়ারটেক সমুদ্র সৈকত\n
+ইলিশিয়া জমিদার বাড়ি\n
+রোহিঙ্গা ক্যাম্প\n
+কক্সবাজার বিমানবন্দর\n
+
+হিমছড়ির পাহাড় থেকে দেখা কক্সবাজার সমুদ্র সৈকত\n
+কক্সবাজার সমুদ্র সৈকত\n
+কক্সবাজার সরকারি কলেজ\n
+টেকনাফ বন্যপ্রাণ অভয়ারণ্য\n
+ডুলাহাজারা সাফারি পার্ক\n
+নাফ নদী\n
+ফাসিয়াখালি বন্যপ্রাণ অভয়ারণ্য\n
+বীরশ্রেষ্ঠ রুহুল আমিন স্টেডিয়াম\n
+মগনামা ঘাট\n
+মাথিন কূপ, টেকনাফ\n
+মেধা কচ্ছপিয়া জাতীয় উদ্যান\n
+মেরিন ড্রাইভ কক্সবাজার\n
+রাখাইন পাড়া\n
+রামু সেনানিবাস\n
+রাংকূট বনাশ্রম বৌদ্ধ বিহার\n
+শাহ ওমরের সমাধি, চকরিয়া\n
+শাহপরীর দ্বীপ\n
+শেখ কামাল আন্তর্জাতিক ক্রিকেট স্টেডিয়াম\n
+সাতগম্বুজ মসজিদ, মানিকপুর\n
+সাবরাং ট্যুরিজম পার্ক\n
+সেন্ট মার্টিন দ্বীপ\n
+ছেঁড়া দ্বীপ\n
+সোনাদিয়া দ্বীপ\n
+হিমছড়ি\n
+হিমছড়ি জাতীয় উদ্যান\n
+বরইতলি ঝর্ণা\n"
+            android:layout_marginHorizontal="10dp"
+            android:textColor="@android:color/background_dark"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

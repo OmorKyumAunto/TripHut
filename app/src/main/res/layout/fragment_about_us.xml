@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".AboutUs">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/constraintLayout"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/themeColor"
+                >
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:fontFamily="@font/rubik_medium"
+                    android:gravity="center"
+                    android:text="About Us"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:layout_margin="15dp"
+                android:src="@drawable/ourpic"
+                android:scaleType="fitCenter"
+                app:shapeAppearanceOverlay="@style/roundimageview">
+
+            </com.google.android.material.imageview.ShapeableImageView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_margin="15dp"
+                app:cardBackgroundColor="@color/themeColor"
+                app:cardCornerRadius="10dp">
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Team Allience"
+                    android:fontFamily="@font/roboto_bold"
+                    android:textSize="25dp"
+                    android:textColor="@color/whiteTextColor"
+                    android:textAlignment="center"/>
+
+
+
+
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:id="@+id/proid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="Project ID    :    SP21D127"
+                android:fontFamily="@font/roboto_medium"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:textAlignment="center"/>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_margin="15dp"
+                app:cardBackgroundColor="@color/themeColor"
+                app:cardCornerRadius="10dp">
+                <TextView
+                    style="@style/parent"
+                    android:text="Supervised By"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/roboto_bold"
+                    android:textColor="@color/whiteTextColor"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+
+                app:cardBackgroundColor="@color/themeColor"
+                app:cardCornerRadius="10dp">
+                <TextView
+                    style="@style/parent"
+                    android:background="#0D47A1"
+                    android:text="Mr. Md. Juwel Mia\nAssistant Professor\nDepartment of CSE\nDaffodil InterNational University"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/roboto"
+                    android:textColor="@color/whiteTextColor"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_margin="15dp"
+                app:cardBackgroundColor="@color/themeColor"
+                app:cardCornerRadius="10dp">
+                <TextView
+                    style="@style/parent"
+                    android:text="Our Details"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/roboto_bold"
+                    android:textColor="@color/whiteTextColor"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/ourdetail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+
+                app:cardBackgroundColor="@color/themeColor"
+                app:cardCornerRadius="10dp">
+                <TextView
+                    style="@style/parent"
+                    android:background="#0D47A1"
+
+                    android:text="Omor Kyum Aunto        182-15-11457\nNurun Nahar Mishu      182-15-11490\nMD Ashikur Rahman     182-15-11462"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/roboto"
+                    android:textColor="@color/whiteTextColor"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/abbackbutton"
+                    android:layout_width="148dp"
+                    android:layout_height="32dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/backbutton"
+                    android:fontFamily="@font/roboto"
+                    android:text="Back To Profile"
+                    android:textColor="@color/themeColor"
+                    app:layout_constraintBottom_toBottomOf="@+id/btimg"
+                    app:layout_constraintEnd_toEndOf="@+id/btimg"
+                    app:layout_constraintHorizontal_bias="0.498"
+                    app:layout_constraintStart_toStartOf="@+id/btimg"
+                    app:layout_constraintTop_toTopOf="@+id/btimg"
+                    app:layout_constraintVertical_bias="0.158" />
+
+                <ImageView
+                    android:id="@+id/btimg"
+                    android:layout_width="match_parent"
+                    android:layout_height="240dp"
+                    android:src="@drawable/downback"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"></ImageView>
+
+
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+
+
+</ScrollView>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_marginBottom="50dp"
+    android:layout_height="match_parent"
+    tools:context=".cardescfragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/backbutton"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center"
+                android:background="@drawable/backbutton"
+                android:fontFamily="@font/roboto"
+                android:text="Back"
+                android:textColor="#6169A4"
+                app:layout_constraintStart_toStartOf="@+id/carimgholder"
+                app:layout_constraintTop_toTopOf="@+id/carimgholder" />
+
+            <ImageView
+                android:id="@+id/carimgholder"
+                android:layout_width="match_parent"
+                android:layout_height="320dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"></ImageView>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+        <TextView
+            android:id="@+id/modelholder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="Model\n"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp"
+            />
+
+
+
+
+        <TextView
+            android:id="@+id/rentholder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="Rent\n"
+            android:layout_marginStart="16dp"
+            android:textColor="#044363"
+            android:textSize="14sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="Driver Details"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp"
+            />
+        <TextView
+            android:id="@+id/nameholder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="Name"
+            android:layout_marginStart="16dp"
+            android:textColor="#044363"
+            android:textSize="14sp"
+            />
+        <TextView
+            android:id="@+id/lieholder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="16dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="Liesence"
+            android:textColor="#044363"
+            />
+
+
+        <TextView
+            android:id="@+id/numholder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="16dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="Number"
+            android:textColor="#044363"
+            />
+
+
+
+
+        <Button
+            android:id="@+id/hirebutton"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="16dp"
+            android:layout_gravity="center"
+            android:background="@drawable/book_button_bg"
+            android:fontFamily="@font/rubik"
+            android:text="Hire This Car"
+            android:textColor="#FFFFFF" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>
